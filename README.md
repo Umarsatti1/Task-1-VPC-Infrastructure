@@ -1,4 +1,4 @@
-# Task 1 — Create VPC Infrastructure
+# Task 1: Create VPC Infrastructure
 
 ## Task Description
 
@@ -138,10 +138,9 @@ The infrastructure consists of:
 ---
 
 ### **Task 1.13 – Connectivity Tests**
-- Verified connectivity between:
-  - Public ↔ Private EC2 instances
-  - Both instances → Internet (`ping google.com`)
-- Used **MobaXterm SSH Client** for secure connection (`chmod 400 umarsatti.pem`)
-- CloudWatch logs confirm successful ICMP communication.
+- Verify connectivity between public and private EC2 instances by pinging each other using their private IP addresses.
+- Verify internet connectivity from both instances by pinging a public domain such as google.com (ping google.com).
+- Use SSH Client to securely connect to EC2 instances after setting proper key permissions (chmod 400 <keypair.pem>).
+- Confirm successful ICMP communication and internet access through CloudWatch log entries.
 
 ---
