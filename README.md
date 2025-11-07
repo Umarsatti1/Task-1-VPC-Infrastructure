@@ -1,6 +1,6 @@
-# 🏗️ Task 1 — Create VPC Infrastructure
+# Task 1 — Create VPC Infrastructure
 
-## 📘 Task Description
+## Task Description
 
 This project demonstrates the creation of a **custom AWS VPC** to host secure and scalable cloud resources across public and private subnets.  
 It includes routing, NAT gateway setup, Internet connectivity, security groups, IAM roles, and flow logging using CloudWatch and S3.
@@ -10,7 +10,7 @@ It includes routing, NAT gateway setup, Internet connectivity, security groups, 
 ## 🧭 VPC Architecture Overview
 
 The infrastructure consists of:
-- **Custom VPC** (`umar-vpc`, CIDR: `10.0.0.0/16`)
+- **Custom VPC**
 - **Public & Private Subnets** across multiple Availability Zones
 - **Internet Gateway** for outbound access
 - **NAT Gateway** for private subnet internet connectivity
@@ -25,11 +25,13 @@ The infrastructure consists of:
 
 ---
 
-## ⚙️ Tasks Breakdown
+## Tasks Breakdown
 
 ### **Task 1.1 – Create a Custom VPC**
 - **VPC Name:** `umar-vpc`  
 - **CIDR Block:** `10.0.0.0/16`
+
+---
 
 ### **Task 1.2 – Define Public and Private Subnets**
 | Subnet Type | Name | AZ | CIDR |
@@ -143,10 +145,3 @@ The infrastructure consists of:
 - CloudWatch logs confirm successful ICMP communication.
 
 ---
-
-## 🧠 Key Learnings
-
-- Proper subnet segregation ensures controlled traffic flow.  
-- NAT Gateways enable private instance internet access securely.  
-- IAM Roles + CloudWatch + Flow Logs provide visibility and auditability.  
-- VPC Endpoints improve security by keeping traffic within AWS’s private network.
