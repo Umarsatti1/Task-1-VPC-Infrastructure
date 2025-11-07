@@ -20,7 +20,7 @@ The infrastructure consists of:
 - **VPC Endpoints** for private AWS service access
 
 <p align="center">
-  <img src="./images/vpc-architecture.png" alt="VPC Architecture Diagram" width="850">
+  <img src="./images/VPC-Infrastructure.png" alt="VPC Architecture Diagram" width="850">
 </p>
 
 ---
