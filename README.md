@@ -10,7 +10,7 @@ It includes routing, NAT gateway setup, Internet connectivity, security groups, 
 ## VPC Architecture Overview
 
 The infrastructure consists of:
-- **Custom VPC**
+- **Custom VPC** with a specific **CIDR Block**
 - **Public & Private Subnets** across multiple Availability Zones
 - **Internet Gateway** for outbound access
 - **NAT Gateway** for private subnet internet connectivity
