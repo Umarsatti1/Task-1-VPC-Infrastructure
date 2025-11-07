@@ -7,7 +7,7 @@ It includes routing, NAT gateway setup, Internet connectivity, security groups, 
 
 ---
 
-## 🧭 VPC Architecture Overview
+## VPC Architecture Overview
 
 The infrastructure consists of:
 - **Custom VPC**
