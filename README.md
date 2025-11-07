@@ -2,8 +2,7 @@
 
 ## Task Description
 
-This project demonstrates the creation of a **custom AWS VPC** to host secure and scalable cloud resources across public and private subnets.  
-It includes routing, NAT gateway setup, Internet connectivity, security groups, IAM roles, and flow logging using CloudWatch and S3.
+This project demonstrates the creation of a **custom AWS VPC** to host secure and scalable cloud resources across public and private subnets. It includes routing, NAT gateway setup, Internet connectivity, security groups, IAM roles, and flow logging using CloudWatch and S3.
 
 ---
 
